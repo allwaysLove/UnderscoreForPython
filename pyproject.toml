@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=56.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "underscore"
+version = "0.0.1"
+authors = [
+    { name = "冬酒暖阳", email = "ThunderH2O@outlook.com" },
+]
+description = "A Python implementation of Underscore.JS"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/allwaysLove/UnderscoreForPython"
+"Bug Tracker" = "https://github.com/allwaysLove/UnderscoreForPython/issues"
+
